@@ -1,0 +1,32 @@
+/* src/App.css */
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.car-image {
+  position: relative;
+  width: 300px;
+}
+
+.car-button {
+  position: absolute;
+  background-color: #007bff;
+  border: none;
+  border-radius: 50%;
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: background-color 0.2s;
+}
+
+.car-button.active {
+  background-color: orange;
+}
